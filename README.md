@@ -33,23 +33,23 @@ Centrar elementos usando Flexbox
 
 ## **Grid**
 
-# Ejercicio 1: Grid básico
+# Ejercicio 5: Grid básico
 Crea un grid simple.
 1. Crea un contenedor con 6 cajas.
 2. Organízalas en 2 filas y 3 columnas usando `grid-template-columns` y `grid-template-rows`.
 
-# Ejercicio 2: Span de elementos
+# Ejercicio 6: Span de elementos
 Hacer que un elemento ocupe varias columnas o filas.
 1. Crea un grid de 3x3.
 2. Haz que la caja del centro ocupe 2 columnas.
 
-# Ejercicio 3: Alineación y espacio
+# Ejercicio 7: Alineación y espacio
 Practicar `justify-items` y `align-items`.
 1. Crea un grid de 4x4.
 2. Centra todos los elementos dentro de sus celdas.
 3. Experimenta con los valores: `start`, `end`, `center`, `stretch`.
 
-# Ejercicio 4: Grid avanzado con áreas
+# Ejercicio 8: Grid avanzado con áreas
 Usar `grid-template-areas`.
 
 Crea un layout de página con las siguientes áreas:
@@ -60,3 +60,29 @@ Crea un layout de página con las siguientes áreas:
 - Footer
 
 Asigna cada área usando `grid-area` y define el layout con `grid-template-areas`.
+
+
+
+
+display: grid;
+grid-template-columns
+grid-template-rows
+grid-template-areas
+justify-items
+aligns-items
+
+grid-row
+grid-column
+grid-area
+
+
+
+
+
+
+
+
+
+
+
+

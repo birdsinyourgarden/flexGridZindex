@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    background-color: rgb(175, 157, 157);
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    background-color: rgb(100, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box:nth-child(2) {
+    background-color: brown;
+}
+
+.box:nth-child(3) {
+    background-color: rgb(183, 129, 129);
+}
