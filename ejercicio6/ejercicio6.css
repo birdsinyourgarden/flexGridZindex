@@ -6,3 +6,15 @@
     padding: 10px;
     background-color: rgb(221, 235, 231);
 }
+
+.container div {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box5 {
+    grid-column: span 2;
+    background-color: black;
+}

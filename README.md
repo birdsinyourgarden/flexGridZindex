@@ -64,16 +64,6 @@ Asigna cada área usando `grid-area` y define el layout con `grid-template-areas
 
 
 
-display: grid;
-grid-template-columns
-grid-template-rows
-grid-template-areas
-justify-items
-aligns-items
-
-grid-row
-grid-column
-grid-area
 
 
 
