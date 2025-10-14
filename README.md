@@ -61,13 +61,32 @@ Crea un layout de página con las siguientes áreas:
 
 Asigna cada área usando `grid-area` y define el layout con `grid-template-areas`.
 
+## **Z-Index y psocionamiento**
 
+# Ejercicio 9: Elementos superpuestos
 
+- Crea 3 cajas de **150x150px** que se superpongan parcialmente.  
+- Asigna distintos valores de `z-index` para controlar cuál está encima de las otras.
 
+# Ejercicio 10: Orden de capas con Flex/Grid
 
+- Crea un contenedor con **4 cajas** distribuidas con **Flexbox** o **Grid**.  
+- Haz que **la caja del medio aparezca siempre encima de las otras** usando `z-index`.
 
+# Ejercicio 11: Overlay
 
+- Crea un **fondo oscuro semi-transparente** (`opacity`) que cubra **toda la pantalla**.  
+- Coloca un **cuadro de diálogo centrado encima**.  
+- Usa `z-index` para asegurarte de que el diálogo esté encima del fondo.  
 
+# Ejercicio 12: Tarjetas interactivas en capas
+
+- Crea un contenedor con **3 tarjetas** (`card`) colocadas una encima de otra, con una ligera rotación y desplazamiento.  
+- Usa `position: absolute` y distintos valores de `z-index` para simular **profundidad y superposición**.  
+- Al pasar el cursor (`:hover`) sobre una tarjeta, haz que:
+  - Se **eleve visualmente** (mayor `z-index`).
+  - Aumente ligeramente su tamaño (`transform: scale(1.1)`).
+  - Añade una sombra para darle efecto 3D (`box-shadow`).
 
 
 
